@@ -1,4 +1,4 @@
-## World Repo Manager — Easy Minecraft World Sharing & Downloading
+# World Repo Manager — Easy Minecraft World Sharing & Downloading
 
 World Repo Manager lets Minecraft players and map creators share and discover custom worlds effortlessly through simple online repositories.
 
