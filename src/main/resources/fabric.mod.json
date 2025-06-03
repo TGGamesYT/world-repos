@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "worldrepos",
+  "version": "${version}",
+
+  "name": "WorldRepos",
+  "description": "Download Minecraft worlds through repositories!",
+  "authors": ["TGGamesYT"],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "assets/worldrepos/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": ["me.tg.worldrepos.client.WorldreposDataGenerator"],
+    "client": ["me.tg.worldrepos.client.WorldreposClient"],
+    "main": ["me.tg.worldrepos.Worldrepos"]
+  },
+
+  "mixins": [
+    "worldrepos.mixins.json"
+    ,{
+      "config": "worldrepos.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/8v6NvACFX5"
+      },
+      "parent": {
+        "id": "worldrepos",
+        "name": "World Repos",
+        "description": "Download Minecraft worlds through repositories!",
+        "icon": "assets/worldrepos/icon.png"
+      },
+      "update_checker": true
+    }
+  }
+}
