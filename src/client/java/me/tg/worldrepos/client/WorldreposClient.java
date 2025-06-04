@@ -98,7 +98,6 @@ public class WorldreposClient implements ClientModInitializer {
         @Override
         public void render(DrawContext context, int mouseX, int mouseY, float delta) {
             // Draw the custom background texture
-            context.drawTexture(BACKGROUND, 0, 0, 0, 0, this.width, this.height, this.width, this.height);
 
             // Then draw everything else
             super.render(context, mouseX, mouseY, delta);
@@ -146,7 +145,6 @@ public class WorldreposClient implements ClientModInitializer {
         @Override
         public void render(DrawContext context, int mouseX, int mouseY, float delta) {
             // Draw the custom background texture
-            context.drawTexture(BACKGROUND, 0, 0, 0, 0, this.width, this.height, this.width, this.height);
 
             // Then draw everything else
             super.render(context, mouseX, mouseY, delta);
@@ -198,7 +196,6 @@ public class WorldreposClient implements ClientModInitializer {
         @Override
         public void render(DrawContext context, int mouseX, int mouseY, float delta) {
             // Draw the custom background texture
-            context.drawTexture(BACKGROUND, 0, 0, 0, 0, this.width, this.height, this.width, this.height);
 
             // Then draw everything else
             super.render(context, mouseX, mouseY, delta);
@@ -268,7 +265,6 @@ public class WorldreposClient implements ClientModInitializer {
         @Override
         public void render(DrawContext context, int mouseX, int mouseY, float delta) {
             // Draw the custom background texture
-            context.drawTexture(BACKGROUND, 0, 0, 0, 0, this.width, this.height, this.width, this.height);
 
             // Then draw everything else
             super.render(context, mouseX, mouseY, delta);
@@ -341,7 +337,6 @@ public class WorldreposClient implements ClientModInitializer {
         @Override
         public void render(DrawContext context, int mouseX, int mouseY, float delta) {
             // Draw the custom background texture
-            context.drawTexture(BACKGROUND, 0, 0, 0, 0, this.width, this.height, this.width, this.height);
 
             // Then draw everything else
             super.render(context, mouseX, mouseY, delta);

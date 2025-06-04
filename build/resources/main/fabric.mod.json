@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "worldrepos",
-  "version": "1.0-1.21.1",
+  "version": "1.0-1.21.4",
 
   "name": "WorldRepos",
   "description": "Download Minecraft worlds through repositories!",
@@ -29,7 +29,7 @@
   "depends": {
     "fabricloader": ">=0.16.14",
     "fabric": "*",
-    "minecraft": "1.21.1"
+    "minecraft": "1.21.4"
   },
   "custom": {
     "modmenu": {
