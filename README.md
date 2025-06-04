@@ -1,6 +1,6 @@
-# World Repo Manager — Easy Minecraft World Sharing & Downloading
+# World Repos — Easy Minecraft World Sharing & Downloading
 
-World Repo Manager lets Minecraft players and map creators share and discover custom worlds effortlessly through simple online repositories.
+World Repo Manager lets Minecraft players and map creators share and discover custom worlds effortlessly through simple online repositories. [See more](https://tg.is-a.dev/world-repos)
 
 How it works:
 Map creators upload a small JSON file plus zipped world files to their own website or hosting service. Players add the repository URL inside the mod, then browse, preview, and download the worlds directly from that repo — all without leaving Minecraft.
