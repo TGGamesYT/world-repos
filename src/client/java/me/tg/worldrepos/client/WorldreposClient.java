@@ -94,10 +94,11 @@ public class WorldreposClient implements ClientModInitializer {
             }
         }
 
-        private static final Identifier BACKGROUND = Identifier.of("worldrepos", "textures/gui/custom_background.png");
+        private static final Identifier BACKGROUND = new Identifier("worldrepos", "textures/gui/custom_background.png");
         @Override
         public void render(DrawContext context, int mouseX, int mouseY, float delta) {
             // Draw the custom background texture
+            context.drawTexture(BACKGROUND, 0, 0, 0, 0, this.width, this.height, this.width, this.height);
 
             // Then draw everything else
             super.render(context, mouseX, mouseY, delta);
@@ -141,10 +142,11 @@ public class WorldreposClient implements ClientModInitializer {
             }).dimensions(width / 2 - 100, height / 3 + 60, 200, 20).build());
         }
 
-        private static final Identifier BACKGROUND = Identifier.of("worldrepos", "textures/gui/custom_background.png");
+        private static final Identifier BACKGROUND = new Identifier("worldrepos", "textures/gui/custom_background.png");
         @Override
         public void render(DrawContext context, int mouseX, int mouseY, float delta) {
             // Draw the custom background texture
+            context.drawTexture(BACKGROUND, 0, 0, 0, 0, this.width, this.height, this.width, this.height);
 
             // Then draw everything else
             super.render(context, mouseX, mouseY, delta);
@@ -192,10 +194,11 @@ public class WorldreposClient implements ClientModInitializer {
                     .dimensions(width / 2 - 100, height - 40, 200, 20).build());
         }
 
-        private static final Identifier BACKGROUND = Identifier.of("worldrepos", "textures/gui/custom_background.png");
+        private static final Identifier BACKGROUND = new Identifier("worldrepos", "textures/gui/custom_background.png");
         @Override
         public void render(DrawContext context, int mouseX, int mouseY, float delta) {
             // Draw the custom background texture
+            context.drawTexture(BACKGROUND, 0, 0, 0, 0, this.width, this.height, this.width, this.height);
 
             // Then draw everything else
             super.render(context, mouseX, mouseY, delta);
@@ -261,10 +264,11 @@ public class WorldreposClient implements ClientModInitializer {
             }).start();
         }
 
-        private static final Identifier BACKGROUND = Identifier.of("worldrepos", "textures/gui/custom_background.png");
+        private static final Identifier BACKGROUND = new Identifier("worldrepos", "textures/gui/custom_background.png");
         @Override
         public void render(DrawContext context, int mouseX, int mouseY, float delta) {
             // Draw the custom background texture
+            context.drawTexture(BACKGROUND, 0, 0, 0, 0, this.width, this.height, this.width, this.height);
 
             // Then draw everything else
             super.render(context, mouseX, mouseY, delta);
@@ -333,10 +337,11 @@ public class WorldreposClient implements ClientModInitializer {
                     .dimensions(width / 2 - 100, height / 2 + 30, 200, 20).build());
         }
 
-        private static final Identifier BACKGROUND = Identifier.of("worldrepos", "textures/gui/custom_background.png");
+        private static final Identifier BACKGROUND = new Identifier("worldrepos", "textures/gui/custom_background.png");
         @Override
         public void render(DrawContext context, int mouseX, int mouseY, float delta) {
             // Draw the custom background texture
+            context.drawTexture(BACKGROUND, 0, 0, 0, 0, this.width, this.height, this.width, this.height);
 
             // Then draw everything else
             super.render(context, mouseX, mouseY, delta);
